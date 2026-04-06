@@ -1,6 +1,6 @@
 """
 WebSocket endpoint for the candidate interview environment.
-Handles chat (→ LangGraph with company context) and telemetry (→ Redis queue).
+Handles chat (→ rag.generate_code_hints + session context) and telemetry (→ Redis queue).
 """
 import json
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
