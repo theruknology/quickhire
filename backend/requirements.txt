@@ -1,0 +1,22 @@
+# --- Core API ---
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+# --- AI / LangChain (Same as agentic-ai-capstone) ---
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+langchain_chroma
+langgraph
+sentence-transformers
+chromadb
+pypdf
+
+# --- Infrastructure ---
+redis
+
+# --- Resilience ---
+tenacity
